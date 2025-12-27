@@ -10,10 +10,10 @@ Trabalho realizado no âmbito da Unidade Curricular de Computação Inteligente 
 
 | Nome | Número |
 | :--- | :--- |
-| **[ João Azevedo ]** | [PG61693] |
-| **[Luís Silva]** | [PG60390] |
-| **[Guilherme Pinto]** | [PG60225] |
-| **[Pedro Reis]** | [PG59908] |
+| ** João Azevedo ** | PG61693 |
+| **Luís Silva** | PG60390 |
+| **Guilherme Pinto** | PG60225 |
+| **Pedro Reis** | PG59908 |
 
 ---
 
