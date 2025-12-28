@@ -28,7 +28,7 @@ Para obter uma rota imediatamente, siga estes passos:
 
 ## 📍 Configuração de Cenários de Teste
 
-No início do notebook `main.ipynb`, encontrará a secção de input identificada como **"Configuração da Viagem"**. Pode alterar as variáveis abaixo para testar diferentes complexidades.
+No início do notebook `code.ipynb`, encontrará a secção de input identificada como **"Configuração da Viagem"**. Pode alterar as variáveis abaixo para testar diferentes complexidades.
 
 ### 1. Definir Data e Hora
 A hora influencia a disponibilidade dos transportes (horários GTFS).

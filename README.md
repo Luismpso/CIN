@@ -30,7 +30,7 @@ O algoritmo desenvolvido permite encontrar soluções que não só minimizam o t
 
 ### Código Fonte
 
-* **`main.ipynb`**: **Interface Principal**. Notebook onde o utilizador define a origem/destino e visualiza os mapas e gráficos de Pareto.
+* **`code.ipynb`**: **Interface Principal**. Notebook onde o utilizador define a origem/destino e visualiza os mapas e gráficos de Pareto.
 * **`func.py`**: Módulo contendo a lógica de domínio: construção do grafo multimodal, implementação dos algoritmos de caminho mínimo (Dijkstra/A*) e cálculo de custos ($CO_2$, Tempo).
 * **`dev.ipynb`**: Ambiente de desenvolvimento e validação dos algoritmos e exploração inicial dos dados.
 
