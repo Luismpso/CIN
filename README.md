@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.13%2B-blue)
 ![Grade](https://img.shields.io/badge/Grade-18%2F20-brightgreen)
-![Status](https://img.shields.io/badge/Status-Concluído-success)
+![Status](https://img.shields.io/badge/Status-Done-success)
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
 > **Projeto de Computação Inspirada na Natureza** | Universidade do Minho
