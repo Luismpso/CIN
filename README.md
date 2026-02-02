@@ -1,51 +1,57 @@
-# Otimização de Rotas Multimodais (Porto)
+# 🚇 Otimização de Rotas Multimodais no Porto
 
-Este projeto visa calcular e visualizar rotas multimodais (Metro, Autocarro e Pedonal) na cidade do Porto, utilizando algoritmos de grafos e otimização.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Grade](https://img.shields.io/badge/Nota_Final-18%2F20-brightgreen)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
-## 👥 Autores
+> **Projeto de Computação para a Engenharia (CIN)** | Universidade do Minho
 
-* **[Guilherme Pinto]** - [PG60225@alunos.uminho.pt]
-* **[Luís Silva]** - [PG60390@alunos.uminho.pt]
-* **[João Azevedo]** - [PG61693@alunos.uminho.pt]
-* **[Pedro Reis]** - [PG59908@alunos.uminho.pt]
+Este projeto visa calcular, visualizar e otimizar rotas multimodais (**Metro, Autocarro e Pedonal**) na cidade do Porto. Utilizando algoritmos de teoria de grafos, a solução foca-se não apenas na rapidez, mas também na sustentabilidade ambiental.
 
 ---
 
-## 🎯 Objetivos
+## 🎯 Objetivos e Algoritmos
 
-O algoritmo desenvolvido permite encontrar soluções que não só minimizam o tempo, mas também consideram a pegada ecológica.
+O núcleo do projeto é um motor de busca de caminhos que implementa algoritmos de caminho mínimo (como **Dijkstra** e **A***) sobre um grafo multimodal complexo.
 
-### Objetivos de Otimização:
+O sistema resolve um problema de otimização bi-critério:
+1.  **⏳ Minimização do Tempo:** Cálculo da rota mais rápida considerando tempos de espera e transbordos.
+2.  **🌱 Minimização da Pegada Ecológica:** Cálculo baseado em dados reais de emissões de CO₂.
 
-1. **Minimizar o Tempo de Viagem**.
-2. **Minimizar Emissões de $CO_2$**:
-   * Utiliza dados reais de sustentabilidade:
-   * **STCP:** 109.9 g$CO_2$/P.km
-   * **Metro:** 40 g$CO_2$/P.km
-3. **Transbordos e Caminhada:** Consideração de limites para o número de trocas e distância a pé.
+### Dados de Sustentabilidade Utilizados
+Para o cálculo de custos ambientais, foram utilizados os seguintes coeficientes baseados nos operadores locais:
+* **STCP (Autocarro):** 109.9 gCO₂/P.km
+* **Metro do Porto:** 40 gCO₂/P.km
+* **Mobilidade Suave:** 0 gCO₂ (Caminhada)
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-### Código Fonte
+### 💻 Código Fonte
+* `code.ipynb`: **Interface Principal**. Notebook interativo onde o utilizador define origem/destino e visualiza os mapas e as fronteiras de Pareto.
+* `func.py`: **Core Logic**. Contém a construção do grafo multimodal, implementação dos algoritmos de otimização e funções de custo.
+* `dev.ipynb`: Ambiente de desenvolvimento, validação de algoritmos e testes unitários.
 
-* **`code.ipynb`**: **Interface Principal**. Notebook onde o utilizador define a origem/destino e visualiza os mapas e gráficos de Pareto.
-* **`func.py`**: Módulo contendo a lógica de domínio: construção do grafo multimodal, implementação dos algoritmos de caminho mínimo (Dijkstra/A*) e cálculo de custos ($CO_2$, Tempo).
-* **`dev.ipynb`**: Ambiente de desenvolvimento e validação dos algoritmos e exploração inicial dos dados.
+### 📊 Dados e Recursos (`/data`)
+* `bus/`: Dados GTFS da rede STCP.
+* `transit/`: Dados da rede do Metro do Porto.
+* `walk/`: Rede viária extraída do OpenStreetMap (via OSMnx).
 
-### Dados
+### 📄 Documentação
+* `report.pdf`: Relatório técnico detalhado com a análise teórica e resultados.
+* `manual.md`: Manual de instruções para execução e testes.
+* `presentation.pdf`: Slides de apresentação do projeto.
 
-* **`bus/`**: Dados da rede STCP (GTFS).
-* **`transit/`**: Dados da rede do Metro do Porto.
-* **`walk/`**: Dados da rede viária (OpenStreetMap via OSMnx).
+---
 
-### Documentação
+## 👥 Autores
 
-* **`env.yml`**: Ficheiro de configuração do ambiente (Conda) para replicabilidade.
-* **`manual.md`**: Instruções detalhadas de execução e criação de cenários de teste.
-* **`report.pdf`**: Relatório técnico.
-* **`presentation.pdf`**: Suporte visual para a apresentação do projeto.
+* **[Guilherme Pinto]** - [PG60225@alunos.uminho.pt]
+* **[Pedro Reis]** - [PG59908@alunos.uminho.pt]
+* **[Luís Silva]** - [PG60390@alunos.uminho.pt]
+* **[João Azevedo]** - [PG61693@alunos.uminho.pt]
 
 ---
 
