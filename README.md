@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
-> **Projeto de Computação para a Engenharia (CIN)** | Universidade do Minho
+> **Projeto de Computação Inspirada na Natureza** | Universidade do Minho
 
 Este projeto visa calcular, visualizar e otimizar rotas multimodais (**Metro, Autocarro e Pedonal**) na cidade do Porto. Utilizando algoritmos de teoria de grafos, a solução foca-se não apenas na rapidez, mas também na sustentabilidade ambiental.
 
