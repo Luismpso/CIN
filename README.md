@@ -76,10 +76,17 @@ Este projeto utiliza `conda` para gestão de dependências e bibliotecas geoespa
     conda activate geo_opt_env
     ```
 
+---
+
 ## 📚 Referências e Dados
 
 * **Dados de Mobilidade:** [Porto Digital - Infraestruturas e Mobilidade](https://opendata.porto.digital/dataset/?q=Infraestruturas+e+Mobilidade&res_format=GTFS)
 * **Sustentabilidade:** [Metro do Porto](https://www.metrodoporto.pt/pages/358) e [STCP](https://www.stcp.pt/pt/institucional/sustentabilidade/politica-energetica/)
 * **Mapas de Fundo:** OpenStreetMap
+
+---
+
+## 📜 Licença
+Este trabalho é de cariz estritamente académico. Universidade do Minho, Escola de Engenharia, Departamento de Informática.
 
 
